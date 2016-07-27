@@ -1,0 +1,23 @@
+//
+//  pixfy-Prefix.pch
+//  pixfy
+//
+//  Created by Timmy on 2016/7/27.
+//  Copyright © 2016年 bigchou image. All rights reserved.
+//
+
+#ifndef pixfy_Prefix_pch
+#define pixfy_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+// if it doesn't work, please refer the following links
+// 1. http://stackoverflow.com/questions/24305211/pch-file-in-xcode-6
+// 2. http://docs.opencv.org/2.4/doc/tutorials/ios/hello/hello.html#opencvioshelloworld
+// 3. https://guides.cocoapods.org/using/using-cocoapods.html
+#endif /* pixfy_Prefix_pch */

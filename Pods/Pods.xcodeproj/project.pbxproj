@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC1638076C001F7B3DF93FC854B47410 /* Pods-pixfy-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CDA6D6266A1B46CC7537557702888C /* Pods-pixfy-dummy.m */; };
+		EA268E1FE57D37F8D4D0E7D0CB8E1910 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0269DFFDC63EB74A7E638EA259B0D9C0 /* Pods-pixfy-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pixfy-frameworks.sh"; sourceTree = "<group>"; };
+		32065AC5400C79F1CEBF3920A190E934 /* Pods-pixfy-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-pixfy-resources.sh"; sourceTree = "<group>"; };
+		4409B029B9E851526CDDEECB2D4C04A4 /* Pods-pixfy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pixfy.release.xcconfig"; sourceTree = "<group>"; };
+		54CDA6D6266A1B46CC7537557702888C /* Pods-pixfy-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-pixfy-dummy.m"; sourceTree = "<group>"; };
+		7F93FDAB30F1817B7EEBFC56B056C51A /* Pods-pixfy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-pixfy.debug.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B7FA93C6F975B0EC56DD10249DDF39EA /* Pods-pixfy-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-pixfy-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1C9A728E57D6910398A335F2B40BD98 /* Pods-pixfy-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-pixfy-acknowledgements.plist"; sourceTree = "<group>"; };
+		C994246B53EDB3A019900B6104BC1117 /* libPods-pixfy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pixfy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99D65E818282909945A7B67F1B204DD /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E6D4380EFF030015C49AF44C58F227A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA268E1FE57D37F8D4D0E7D0CB8E1910 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A77B0B9E2DA7C59F227CE1A17E78192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99D65E818282909945A7B67F1B204DD /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		623BF2365202230952DEA17D53F0738E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C994246B53EDB3A019900B6104BC1117 /* libPods-pixfy.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D76A84FA44FA422B31D3185B4166BFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6C1780F88BCD4979CB9FA9001B21D9A /* OpenCV */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6D76A84FA44FA422B31D3185B4166BFB /* Pods */,
+				623BF2365202230952DEA17D53F0738E /* Products */,
+				F3C8011D3C6BE7E1CC538003764C5D92 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E65BF46AE218395C61EA7024F45E273 /* Pods-pixfy */ = {
+			isa = PBXGroup;
+			children = (
+				B7FA93C6F975B0EC56DD10249DDF39EA /* Pods-pixfy-acknowledgements.markdown */,
+				C1C9A728E57D6910398A335F2B40BD98 /* Pods-pixfy-acknowledgements.plist */,
+				54CDA6D6266A1B46CC7537557702888C /* Pods-pixfy-dummy.m */,
+				0269DFFDC63EB74A7E638EA259B0D9C0 /* Pods-pixfy-frameworks.sh */,
+				32065AC5400C79F1CEBF3920A190E934 /* Pods-pixfy-resources.sh */,
+				7F93FDAB30F1817B7EEBFC56B056C51A /* Pods-pixfy.debug.xcconfig */,
+				4409B029B9E851526CDDEECB2D4C04A4 /* Pods-pixfy.release.xcconfig */,
+			);
+			name = "Pods-pixfy";
+			path = "Target Support Files/Pods-pixfy";
+			sourceTree = "<group>";
+		};
+		B6C1780F88BCD4979CB9FA9001B21D9A /* OpenCV */ = {
+			isa = PBXGroup;
+			children = (
+				4A77B0B9E2DA7C59F227CE1A17E78192 /* Frameworks */,
+			);
+			path = OpenCV;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3C8011D3C6BE7E1CC538003764C5D92 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E65BF46AE218395C61EA7024F45E273 /* Pods-pixfy */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2E1EED6C97BCFCACB93118C721E6717E /* Pods-pixfy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75240673FA94502FA00AF85D0D693CCA /* Build configuration list for PBXNativeTarget "Pods-pixfy" */;
+			buildPhases = (
+				4A9E3143554A19D238D4375FA1D4214C /* Sources */,
+				0E6D4380EFF030015C49AF44C58F227A /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-pixfy";
+			productName = "Pods-pixfy";
+			productReference = C994246B53EDB3A019900B6104BC1117 /* libPods-pixfy.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 623BF2365202230952DEA17D53F0738E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2E1EED6C97BCFCACB93118C721E6717E /* Pods-pixfy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A9E3143554A19D238D4375FA1D4214C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC1638076C001F7B3DF93FC854B47410 /* Pods-pixfy-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0329CCAC0D5634342207672B6BB10679 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F93FDAB30F1817B7EEBFC56B056C51A /* Pods-pixfy.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B4D9B5D4B8BF9080845BAE9BFAE98A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4409B029B9E851526CDDEECB2D4C04A4 /* Pods-pixfy.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75240673FA94502FA00AF85D0D693CCA /* Build configuration list for PBXNativeTarget "Pods-pixfy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0329CCAC0D5634342207672B6BB10679 /* Debug */,
+				B4D9B5D4B8BF9080845BAE9BFAE98A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

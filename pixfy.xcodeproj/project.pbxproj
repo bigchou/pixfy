@@ -7,25 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		560102903B3BEBE936DE4D8E /* libPods-pixfy.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EECC9A55CA126FA558D03B2 /* libPods-pixfy.a */; };
 		A5AA0E6C1D4752D10006E03D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA0E6B1D4752D10006E03D /* main.m */; };
 		A5AA0E6F1D4752D10006E03D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA0E6E1D4752D10006E03D /* AppDelegate.m */; };
-		A5AA0E721D4752D10006E03D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AA0E711D4752D10006E03D /* ViewController.m */; };
+		A5AA0E721D4752D10006E03D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AA0E711D4752D10006E03D /* ViewController.mm */; };
 		A5AA0E751D4752D10006E03D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AA0E731D4752D10006E03D /* Main.storyboard */; };
 		A5AA0E771D4752D10006E03D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5AA0E761D4752D10006E03D /* Assets.xcassets */; };
 		A5AA0E7A1D4752D10006E03D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AA0E781D4752D10006E03D /* LaunchScreen.storyboard */; };
+		A5AA0EC71D4906E60006E03D /* UIImageCVMatConverter.mm in Sources */ = {isa = PBXBuildFile; fileRef = A5AA0EC61D4906E60006E03D /* UIImageCVMatConverter.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C70DE742708CDA2B08ACBD8 /* Pods-pixfy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixfy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pixfy/Pods-pixfy.debug.xcconfig"; sourceTree = "<group>"; };
+		98012A032C9F580D02C10351 /* Pods-pixfy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pixfy.release.xcconfig"; path = "Pods/Target Support Files/Pods-pixfy/Pods-pixfy.release.xcconfig"; sourceTree = "<group>"; };
+		9EECC9A55CA126FA558D03B2 /* libPods-pixfy.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-pixfy.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AA0E671D4752D00006E03D /* pixfy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pixfy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5AA0E6B1D4752D10006E03D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A5AA0E6D1D4752D10006E03D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A5AA0E6E1D4752D10006E03D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A5AA0E701D4752D10006E03D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5AA0E711D4752D10006E03D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5AA0E711D4752D10006E03D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		A5AA0E741D4752D10006E03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5AA0E761D4752D10006E03D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5AA0E791D4752D10006E03D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5AA0E7B1D4752D10006E03D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5AA0EC01D4905000006E03D /* pixfy-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "pixfy-Prefix.pch"; sourceTree = "<group>"; };
+		A5AA0EC51D4906E60006E03D /* UIImageCVMatConverter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageCVMatConverter.h; sourceTree = "<group>"; };
+		A5AA0EC61D4906E60006E03D /* UIImageCVMatConverter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UIImageCVMatConverter.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				560102903B3BEBE936DE4D8E /* libPods-pixfy.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +51,11 @@
 		A5AA0E5E1D4752D00006E03D = {
 			isa = PBXGroup;
 			children = (
+				A5AA0EC41D4906E60006E03D /* imageSDK */,
 				A5AA0E691D4752D00006E03D /* pixfy */,
 				A5AA0E681D4752D00006E03D /* Products */,
+				C604B64ED51DECC0ACE3CB76 /* Pods */,
+				D4737E5BA64C0D5B64492296 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,7 +73,7 @@
 				A5AA0E6D1D4752D10006E03D /* AppDelegate.h */,
 				A5AA0E6E1D4752D10006E03D /* AppDelegate.m */,
 				A5AA0E701D4752D10006E03D /* ViewController.h */,
-				A5AA0E711D4752D10006E03D /* ViewController.m */,
+				A5AA0E711D4752D10006E03D /* ViewController.mm */,
 				A5AA0E731D4752D10006E03D /* Main.storyboard */,
 				A5AA0E761D4752D10006E03D /* Assets.xcassets */,
 				A5AA0E781D4752D10006E03D /* LaunchScreen.storyboard */,
@@ -75,8 +87,36 @@
 			isa = PBXGroup;
 			children = (
 				A5AA0E6B1D4752D10006E03D /* main.m */,
+				A5AA0EC01D4905000006E03D /* pixfy-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5AA0EC41D4906E60006E03D /* imageSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A5AA0EC51D4906E60006E03D /* UIImageCVMatConverter.h */,
+				A5AA0EC61D4906E60006E03D /* UIImageCVMatConverter.mm */,
+			);
+			name = imageSDK;
+			path = pixfy/imageSDK;
+			sourceTree = "<group>";
+		};
+		C604B64ED51DECC0ACE3CB76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C70DE742708CDA2B08ACBD8 /* Pods-pixfy.debug.xcconfig */,
+				98012A032C9F580D02C10351 /* Pods-pixfy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D4737E5BA64C0D5B64492296 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9EECC9A55CA126FA558D03B2 /* libPods-pixfy.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5AA0E7E1D4752D10006E03D /* Build configuration list for PBXNativeTarget "pixfy" */;
 			buildPhases = (
+				E8C2D54A41A671DC73F2AC21 /* 📦 Check Pods Manifest.lock */,
 				A5AA0E631D4752D00006E03D /* Sources */,
 				A5AA0E641D4752D00006E03D /* Frameworks */,
 				A5AA0E651D4752D00006E03D /* Resources */,
+				B3FC6CEECC5F510101EA6267 /* 📦 Embed Pods Frameworks */,
+				E944826122C24413897274FF /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -144,12 +187,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B3FC6CEECC5F510101EA6267 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pixfy/Pods-pixfy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8C2D54A41A671DC73F2AC21 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E944826122C24413897274FF /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pixfy/Pods-pixfy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A5AA0E631D4752D00006E03D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AA0E721D4752D10006E03D /* ViewController.m in Sources */,
+				A5AA0EC71D4906E60006E03D /* UIImageCVMatConverter.mm in Sources */,
+				A5AA0E721D4752D10006E03D /* ViewController.mm in Sources */,
 				A5AA0E6F1D4752D10006E03D /* AppDelegate.m in Sources */,
 				A5AA0E6C1D4752D10006E03D /* main.m in Sources */,
 			);
@@ -263,8 +355,11 @@
 		};
 		A5AA0E7F1D4752D10006E03D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C70DE742708CDA2B08ACBD8 /* Pods-pixfy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/pixfy-Prefix.pch";
 				INFOPLIST_FILE = pixfy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bigchou-image.pixfy";
@@ -274,8 +369,11 @@
 		};
 		A5AA0E801D4752D10006E03D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98012A032C9F580D02C10351 /* Pods-pixfy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/pixfy-Prefix.pch";
 				INFOPLIST_FILE = pixfy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "bigchou-image.pixfy";
@@ -302,6 +400,7 @@
 				A5AA0E801D4752D10006E03D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
