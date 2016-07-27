@@ -16,7 +16,7 @@
 #ifdef __cplusplus
 #import <opencv2/opencv.hpp>
 #endif
-// if it doesn't work, please refer the following links
+// if it doesn't work, please refer the following links to solve your problems
 // 1. http://stackoverflow.com/questions/24305211/pch-file-in-xcode-6
 // 2. http://docs.opencv.org/2.4/doc/tutorials/ios/hello/hello.html#opencvioshelloworld
 // 3. https://guides.cocoapods.org/using/using-cocoapods.html
