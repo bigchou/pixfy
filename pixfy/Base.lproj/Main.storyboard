@@ -46,11 +46,32 @@
                                     <action selector="Apply:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mPD-2N-HA0"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbL-Fa-edY">
+                                <rect key="frame" x="345" y="520" width="50" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="14S-Tm-0VK"/>
+                                    <constraint firstAttribute="height" constant="30" id="IyD-qC-jFF"/>
+                                </constraints>
+                                <state key="normal" title="Reset">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="Reset:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yzt-po-enl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="bN7-tj-psc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2c4-8s-4IH"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="bN7-tj-psc" secondAttribute="bottom" constant="50" id="VXa-j4-NnG"/>
+                            <constraint firstItem="GbL-Fa-edY" firstAttribute="leading" secondItem="bN7-tj-psc" secondAttribute="trailing" constant="20" id="dIg-Ft-dRY"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GbL-Fa-edY" secondAttribute="bottom" constant="50" id="h5a-P2-G6V"/>
                         </constraints>
                     </view>
                     <connections>
