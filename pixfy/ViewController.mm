@@ -27,8 +27,9 @@
     UIAlertAction *firstAction = [UIAlertAction actionWithTitle:@"GrayScale"
                                                           style:UIAlertActionStyleDefault handler:^(UIAlertAction * action) {
                                                               NSLog(@"You pressed \"GrayScale\"");
-                                                              cv::Mat img=[UIImageCVMatConverter cvMatGrayFromUIImage:_MainImage.image];
-                                                              _MainImage.image = [UIImageCVMatConverter UIImageFromCVMat:img];
+                                                              /*cv::Mat img=[UIImageCVMatConverter cvMatGrayFromUIImage:_MainImage.image];
+                                                              _MainImage.image = [UIImageCVMatConverter UIImageFromCVMat:img];*/
+                                                              [self RGB2GRAY];
                                                           }]; // 2
     
     
@@ -69,4 +70,8 @@ UIImage *origin = NULL;
     // Dispose of any resources that can be recreated.
 }
 
+- (void)RGB2GRAY{
+    cv::Mat img=[UIImageCVMatConverter cvMatGrayFromUIImage:_MainImage.image];
+    _MainImage.image = [UIImageCVMatConverter UIImageFromCVMat:img];
+}
 @end
